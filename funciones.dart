@@ -28,6 +28,17 @@ void main(List<String> arguments) {
   //llamado a la funcion 5
   saludo5(name: 'Brandon', mensaje: 'Que onda');
   saludo5(name: 'Jovas', mensaje: 'eres gei');
+
+//Uso de funciones anonimas
+  var alumnos = Map();
+  alumnos[1] = 'Brandon';
+  alumnos[2] = 'Pancho';
+  alumnos[3] = 'anacleto';
+  alumnos[4] = 'panfilo';
+  alumnos[5] = 'panfilo';
+  alumnos[6] = 'pantaleon';
+  //imprimiendo el map con una funcion anonima(key,value)
+  alumnos.forEach((key, value) => print('clave: $key, valor: $value'));
 }
 
 //funcion que no recibe parametros y tampoco retorna un valor
