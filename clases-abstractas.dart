@@ -17,7 +17,7 @@ class Cuadrado implements FiguraGeometrica {
   @override
   double? area;
   @override
-  //se eusa override ya que se estan sobreescribiendo lo que ya estaba definido
+  //se usa override ya que se estan sobreescribiendo lo que ya estaba definido
   // en la clase abstracta FiguraGeometrica
   double calcularArea() {
     double lado = 12.5;
